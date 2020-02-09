@@ -1,1 +1,3 @@
-{{toJson cfg}}
+{
+  "data-dir": "{{pkg.svc_data_path}}"
+}

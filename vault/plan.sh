@@ -1,12 +1,12 @@
 pkg_origin=ncerny
-pkg_name=consul
-pkg_version=1.6.3
+pkg_name=vault
+pkg_version=1.3.2
 pkg_maintainer='Nathan Cerny <ncerny@gmail.com>'
 pkg_license=("MPL-2.0")
-pkg_description="Consul is a tool for service discovery, monitoring and configuration."
-pkg_upstream_url=https://www.consul.io/
+pkg_description="Vault Secret Management"
+pkg_upstream_url=https://www.vaultproject.io/
 pkg_source="https://releases.hashicorp.com/${pkg_name}/${pkg_version}/${pkg_name}_${pkg_version}_linux_amd64.zip"
-pkg_shasum="3ada92a7b49c11076d0a2db9db4ad53ee366fcfb0e057118a322ad0daf188c60"
+pkg_shasum="6e72132de0421b74d909f50be1823fe57182694c4268ba9a38c31213d9497ec9"
 pkg_filename="${pkg_name}-${pkg_version}_linux_amd64.zip"
 pkg_build_deps=(core/7zip)
 
